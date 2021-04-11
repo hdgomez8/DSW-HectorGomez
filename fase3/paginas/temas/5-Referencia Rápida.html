@@ -13,14 +13,14 @@
 
     <!-- Encabezado -->
     <header>
-        <img height="200px" width="200px" src="img/Logo.PNG" alt="Logo">
+        <img height="200px" width="200px" src="../../img/Logo.PNG" alt="Logo">
         <h1>Sitio web como herramienta de aprendizaje del tema: <br> Etiquetas Básicas de HTML, atributos y valores</h1>
     </header>
 
     <!-- MENU -->
     <nav class="menu-area">
         <ul>
-            <li> <a href="#">Inicio</a> </li>
+            <li> <a href="../../index.html">Inicio</a> </li>
             <li><a href="#">Temas</a>
                 <ul class="dropdown-1">
                     <li><a href="1-Estructura Global.html">1. Estructura Global.</a></li>
@@ -32,8 +32,11 @@
             </li>
             <li><a href="#">Recursos Digitales</a>
                 <ul class="dropdown-1">
-                    <li> <a href="#">Recurso 1</a> </li>
-                    <li><a href="#">Recurso 2</a></li>
+                    <li><a href="../recursos/1-Estructura Global.html">1. Estructura Global.</a></li>
+                    <li><a href="../recursos/2-Estructura Del Cuerpo.html">2. Estructura Del Cuerpo.</a></li>
+                    <li><a href="../recursos/3-Dentro Del Cuerpo.html">3. Dentro Del Cuerpo.</a></li>
+                    <li><a href="../recursos/4-Nuevos Y Viejos Elementos.html">4. Nuevos Y Viejos Elementos.</a></li>
+                    <li><a href="../recursos/5-Referencia Rápida.html">5. Referencia Rápida.</a></li>
                 </ul>
             </li>
             <li><a href="#">Aprendizaje</a>
@@ -49,56 +52,39 @@
     <!--div-->
     <div class="central">
         <aside>
-            <h5> Caja lateral</h5>
-            <p>aqui puedo colocar lo de facebook</p>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam molestias ducimus fuga rem, similique tempore
-
-            </p>
-            <p>Prueba</p>
+            <h2>Timeline de facebook</h2>
+            <h4>UNAD</h4>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=500&height=700&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="700"
+                style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </aside>
 
         <!--SECTION-->
         <section>
-            <h1>Componentes Básicos De HTML </h1><br>
-            <h4>Propósito:</h4><br>
-            <p>Empecemos por lo básico, paso a paso. En este primer capítulo aprenderá cómo construir una plantilla para futuros proyectos usando los nuevos elementos HTML introducidos en HTML5.
-            </p> <br>
+            <h1>5. Referencia Rápida.</h1><br>
+            <p>En la especificación HTML5, HTML está a cargo de la estructura del documento y provee un grupo completo de nuevos elementos para este propósito. La especificación también incluye algunos elementos con la única tarea de proveer estilos. aqui
+                veremos una lista de los que consideramos más relevantes.</p> <br>
 
             <!--ARTICLE-->
             <article>
                 <h3>Contenido: </h3><br>
-                <h4>1. Estructura Global.</h4><br>
-                <p>
-                    Los documentos HTML se encuentran estrictamente organizados. Cada parte del documento está diferenciada, declarada y determinada por etiquetas específicas. En esta parte del capítulo vamos a ver cómo construir la estructura global de un documento HTML
-                    y los nuevos elementos semánticos incorporados en HTML5.
-                </p><br>
 
-                <h4>2. Estructura Del Cuerpo.</h4><br>
-                <p>La estructura del cuerpo generará la parte visible del documento. Este es el código que producirá nuestra página web. </p><br>
+                <img class="imagenes" src="../../img/Estructura Global.JPG" alt="Estructura Global">
 
-                <h4>3. Dentro Del Cuerpo.</h4><br>
-                <p>El cuerpo de nuestro documento está listo. La estructura básica de nuestro sitio web fue finalizada, pero aún tenemos que trabajar en el contenido. Los elementos HTML5 estudiados en el capitulo anterior nos ayudan a identificar cada sección
-                    del diseño y asignar un propósito intrínseco a cada una de ellas, pero lo que es realmente importante para nuestro sitio web se encuentra en el interior de estas secciones.</p><br>
+                <article>
+                    <iframe class="pdf" height="400" src="../../pdf/Estructura Global.pdf" frameborder="0"></iframe>
+                </article>
 
-                <h4>4. Nuevos Y Viejos Elementos.</h4><br>
-                <p>HTML5 fue desarrollado con la intención de simplificar, especificar y organizar el código. Para lograr este propósito, nuevas etiquetas y atributos fueron agregados y HTML fue completamente integrado a CSS y Javascript. Estas incorporaciones
-                    y mejoras de versiones previas están relacionadas no solo con nuevos elementos sino también con cómo usamos los ya existentes. </p><br>
+            </article>
 
-                <h4>5. Referencia Rápida.</h4><br>
-                <p>En la especificación HTML5, HTML está a cargo de la estructura del documento y provee un grupo completo de nuevos elementos para este propósito. La especificación también incluye algunos elementos con la única tarea de proveer estilos.
-                    aqui veremos una lista de los que consideramos más relevantes.</p><br>
+            <p>Fuente: El gran libro de HTML5, CSS3 y JavaScript</p>
+            <!--ARTICLE-->
+            <article>
 
 
             </article>
         </section>
 
-        <div class="lateral2">
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe.
-            </p>
-            <img width="150px" height="200px" src="img/imagen.jpg" alt="">
-        </div>
+
     </div>
 
     <!--footer-->
